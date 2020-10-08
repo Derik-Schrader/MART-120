@@ -1,0 +1,24 @@
+div {
+    color: steelblue;
+}
+span {
+    font-weight: bold;
+}
+span ul {
+    font-size: medium;
+}
+.myclass {
+    color: whitesmoke;
+}
+.white {
+color: teal;
+}
+.size {
+    font-size: large;
+}
+#apple {
+    color: black;
+}
+#Bella {
+    color: rebeccapurple;
+}
