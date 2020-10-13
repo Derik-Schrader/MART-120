@@ -1,0 +1,43 @@
+<html>
+    <title>Schrader Contact Us</title>
+    <head>
+        <style type="text/css">
+            h1{color: olive;}
+            h3{color: olive;}
+                body{
+                    background-color: papayawhip;
+                    font-size: larger;
+                }
+            </style>
+        <script>
+            function getData()
+            {
+                var FirstName = document.getElementById("fName").value;
+                if(FirstName == "")
+                {
+                    document.getElementById("fName").style.backgroundColor = "red";
+                var LastName = document.getElementById("lName").value;
+                var Email = document.getElementById("Email").value;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <p></p>
+        <h1>Contact us</h1>
+        <br></br>
+        <form action="Schrader Contact us.html" type="Post">
+            First Name: <input type="text" id="fName">
+            Last Name: <input type="text" id="lName">
+            Email address: <input type="text" id="Email">
+            <br></br>
+            Accept terms of agreement 
+            <select>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            <br></br>
+            <button id="btnSubmit" onclick="getData();">Submit</button>
+        </form>
+    </body>
+    </html>
